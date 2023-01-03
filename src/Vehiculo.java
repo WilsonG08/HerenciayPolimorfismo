@@ -5,6 +5,7 @@ public class Vehiculo {
     public Vehiculo(String marca, String modelo, double precioAlquiler){
         this.marca=marca;
         this.modelo=modelo;
+        this.precioAlquiler = precioAlquiler;
     }
 
     public void setPrecioAlquiler(double precioAlquiler) {
